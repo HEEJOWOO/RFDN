@@ -40,7 +40,7 @@ information multi distillation block
 
   * 그림 2의 (a)는 information distillation block, 3x3 Conv를 이용하는 다수의 후속 distillation 단계를 통해 특징을 추출
   * 각 distillation 단계에서 split을 이용, 두 개로 나눠짐, 하나는 retain, 다른 하나는 refine으로 다음 distillation 단계로 넘어감
-  * block의 입력을 이라 하였을 때 수식 1과 같이 block을 수식화 할 수 있음 
+  * block의 입력을 F_in이라 하였을 때 수식 1과 같이 block을 수식화 할 수 있음 
   
 ![image](https://user-images.githubusercontent.com/61686244/111261109-473e0d80-8665-11eb-9656-305f90a87f68.png)
   
