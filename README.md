@@ -74,12 +74,15 @@ Framework of RFDN
   * 4) the last reconstruction block
 
   * 처음에 3x3 Conv를 이용하여 coarse features를 LR로부터 추출
+  
 ![image](https://user-images.githubusercontent.com/61686244/111261292-9ab05b80-8665-11eb-884f-d7bc5f3730e0.png)
 
   * RFDBs는 추출된 특징을 점차 refine하는 역할을 가지고 있음 
+  
 ![image](https://user-images.githubusercontent.com/61686244/111261318-a439c380-8665-11eb-8e2c-2c796a06314a.png)
 
   * 각 RFDB에서 나온 특징들은 마지막에 concat됨, 1x1, 3x3 conv 통과
+  
 ![image](https://user-images.githubusercontent.com/61686244/111261343-adc32b80-8665-11eb-98b4-b33ef7b74fbc.png)
 
 ![image](https://user-images.githubusercontent.com/61686244/111261347-b156b280-8665-11eb-8b2e-78e7314bdc9f.png)
@@ -90,7 +93,7 @@ Experiments
 -----------
   * Train : DIV2K
   * Test : Set5, Set14, Bsd100, Urban100, Manga109
-  * RFDN- channel number 48 / RFDN-L channel number-52 / RFDB 6
+  * RFDN channel number : 48 / RFDN-L channel number :52 / RFDB 사용 횟수 : 6
 
 Ablation study
 --------------
